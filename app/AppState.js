@@ -13,6 +13,10 @@ class ObservableAppState extends EventEmitter {
   values = loadState('values', [Value])
   socketData = []
 
+  /** @type {Object[]} */
+  wildPokemons = []
+
+
   // Used to load initial data
   init() {
 
